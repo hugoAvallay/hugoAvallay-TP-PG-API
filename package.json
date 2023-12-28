@@ -1,0 +1,27 @@
+{
+  "name": "myApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-paginate": "^1.0.2",
+    "http-errors": "^2.0.0",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "notenv": "^2.0.3",
+    "sequelize": "^6.35.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
